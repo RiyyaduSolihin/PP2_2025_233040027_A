@@ -10,11 +10,12 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.SwingUtilities;
 
+
 public class latihan4 {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                JFrame frame = new JFrame("Label adalah tombol");
+                JFrame frame = new JFrame("Contoh Border Layout");
                 frame.setSize(400, 300);
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
